@@ -21,14 +21,45 @@ table, td{
 
 td{
 	border-width: 2px;
-	border-color: #aa2356;
+	border-color: #ffc014;
 }
 table{
 	border-width: 4px;
-	border-color: #34ab56;
+	border-color: #0a0a0a;
 	margin-left: auto;
 	margin-right: auto;
 }
 body{
-	background-image: url(cakeBg.jpeg);
+	background-image: url();
 }
+img{
+	border-radius: 25px;
+}
+img:hover{
+	opacity: 0.75;
+}
+ul{
+	list-style-type: none;
+	background-color: #e7eb15;
+	overflow: hidden;
+	
+
+}
+li a{
+	float: left;
+	display: block;
+	width: 150px;
+	background-color: #eff542;
+	text-align: center;
+	padding: 15px 15px;
+	text-decoration: none;
+	color: #121212;
+}
+li a:hover{
+	background-color:#f0d47a
+
+}
+.active{
+	border-bottom: 2px dashed #121212;
+}	
+
